@@ -8,12 +8,21 @@
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(65, 159, 236);
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
 hr {
   margin: 50px auto; }
 
 /* NAVBAR STYLES */
 .navbar {
-  background-color: #21cf7e;
+  background-color: rgb(65, 159, 236);
   color: white;
   width: 100%;
   height: 50px;
@@ -64,7 +73,7 @@ hr {
       right: 5px;
       position: absolute; }
     .navbar .navbar--left__before {
-      background-color: #21cf7e;
+      background-color: rgb(65, 159, 236);
       width: 103%;
       margin-top: 35px; } }
 
@@ -82,7 +91,7 @@ hr {
     text-transform: uppercase;
     margin-bottom: 10px; }
   .intro--section p {
-    color: #21cf7e; }
+    color: rgb(65, 159, 236); }
   .intro--section__name {
     display: flex;
     justify-content: center; }
@@ -100,7 +109,7 @@ hr {
     margin: 10px;
     font-size: 30px; }
     .intro--section .icons--contact li:hover {
-      color: #21cf7e; }
+      color: rgb(65, 159, 236); }
 
 .about {
   max-width: 600px;
@@ -108,12 +117,12 @@ hr {
   .about h1 {
     margin-top: 30px;
     text-align: center;
-    color: #21cf7e; }
+    color: rgb(65, 159, 236); }
   .about h2 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 25px;
-    color: #21cf7e; }
+    color: rgb(65, 159, 236); }
   .about ul {
     display: flex;
     justify-content: space-between;
@@ -139,7 +148,7 @@ hr {
 .projects h2 {
   text-align: center;
   text-transform: uppercase;
-  color: #21cf7e; }
+  color: rgb(65, 159, 236); }
 
 .projects .images {
   display: flex;
@@ -170,9 +179,9 @@ hr {
   .contact h2 {
     text-transform: uppercase;
     text-align: center;
-    color: #21cf7e; }
+    color: rgb(65, 159, 236); }
   .contact em {
-    color: #21cf7e; }
+    color: rgb(65, 159, 236); }
     .contact em:hover {
       color: black; }
   .contact .icons--contact ul {
@@ -181,7 +190,7 @@ hr {
     justify-content: center;
     flex-wrap: wrap; }
   .contact .icons--contact a {
-    color: #21cf7e; }
+    color: rgb(65, 159, 236); }
   .contact .icons--contact li {
     list-style: none;
     margin: 10px;
@@ -194,7 +203,7 @@ hr {
     margin: 50px 15px; } }
 
 footer {
-  background-color: #21cf7e;
+  background-color: rgb(65, 159, 236);
   padding: 20px 0;
   color: white;
   text-align: center; }
